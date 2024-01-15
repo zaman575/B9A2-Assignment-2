@@ -81,6 +81,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 20px;
+    margin-top: 30px;
 }
 
 .header-content{
@@ -143,6 +144,42 @@ transition: .5s;
 }
 
 /* icon missing in input */
+
+/* main section style */
+
+.main-section{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    width: 1250px;
+    margin-top:50px;
+}
+
+
+.popular-tour{
+    margin-right: 30px;
+}
+
+.popular-title{
+    font-size: var(--Boldfont-size);
+}
+.popular-tour p{
+    margin-top: 15px;
+    font-size: 20px;
+    padding-bottom: 20px;
+    text-align: justify;
+}
+
+.popular-tour ul li{
+    padding-bottom: 11px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.tour-p-text{
+    margin-bottom: 20px;
+    
+}
 
 
 
