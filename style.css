@@ -50,6 +50,10 @@
     cursor: pointer;
   }
 
+  .bar{
+    display: none;
+  }
+
   .nav-manue a:hover{
     color: rgb(121, 65, 43);
     font-size: 22px;
@@ -531,9 +535,22 @@ hr{
 
 
 @media screen  and (max-width: 600px) {
-    .nav-section, .nav-manue, .header-input, .main-section, .service-sectio-1, .video-section{
+    .nav-section, .nav-manue, .header-input, .main-section, .service-sectio-1, .video-section, .newsletter-section{
         display: flex;
         flex-direction: column;
+    }
+
+    .nav-manu-title{
+        display: none;
+    }
+
+    .bar{
+        display: flex;
+    }
+
+    .nav-section{
+        display: flex;
+        flex-direction: row;
     }
 
     .nav-content h1{
@@ -549,7 +566,7 @@ hr{
         width: 300px;
     }
 
-    .header-input, .whychoose-section, {
+    .header-input, .whychoose-section, .Simple-Perfect, .newsletter-section {
         width: 500px;
         padding-right: opx;
         margin-left: 20px;
@@ -579,6 +596,17 @@ hr{
         width: 530px;
         height: 280px;
     }
+
+    .footer-section{
+        width: 600px;
+        text-align: center;
+    }
+
+    .footer-section p{
+        width: 400px;
+    }
+        
+    
 
 
 
