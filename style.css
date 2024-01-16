@@ -302,6 +302,10 @@ transition: .5s;
     margin-top: 10px;
 }
 
+.footer-icon i{
+    margin-right: 15px;
+}
+
 hr{
     font-size: 20px;
     color: lightcoral;
