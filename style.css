@@ -160,9 +160,9 @@ transition: .5s;
 }
 
 
-.popular-tour{
+/* .popular-tour{
     margin-right: 30px;
-}
+} */
 
 .popular-title{
     font-size: var(--Boldfont-size);
@@ -171,7 +171,7 @@ transition: .5s;
 .popular-tour p{
     margin-top: 15px;
     font-size: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     text-align: justify;
 }
 
@@ -182,16 +182,16 @@ transition: .5s;
 }
 
 .tour-p-text{
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
     
 }
 
-.popular-tour-image{
-    width: fit-content;
+/* .popular-tour-image{
     align-content: center;
     align-items: center;
     
-}
+} */
 
 .destination-section{
     margin: 0 auto;
@@ -225,7 +225,7 @@ transition: .5s;
     display: grid;
     column-gap: 10px;
     row-gap: 10px;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 700px 700px;
     grid-auto-flow: row;
 
 }
@@ -397,7 +397,7 @@ margin-left: 25%;
 }
 
 .newsletter-content{
-    border: 1px solid var(--common-color);
+    border: 1px solid slategray;
     border-radius: 10px;
     margin-right: 10px;
     padding: 15px;
@@ -527,6 +527,7 @@ hr{
 
 .last-text p{
     text-align: center;
+    margin-bottom: 40px;
 }
 
  @media screen  and (max-width: 900px) {
@@ -553,8 +554,12 @@ hr{
         flex-direction: row;
     }
 
+    .popular-tour-image{
+        width: 500px;
+    }
+
     .nav-content h1{
-        font-size: 25px;
+        font-size: 35px;
     }
 
     .header-section, .header-content, .price-gurantee{
@@ -566,11 +571,24 @@ hr{
         width: 300px;
     }
 
-    .header-input, .whychoose-section, .Simple-Perfect, .newsletter-section {
+     .whychoose-section, .Simple-Perfect, .newsletter-section {
         width: 500px;
         padding-right: opx;
         margin-left: 20px;
         margin-right: 10px;
+    }
+
+    .newsletter-section{
+        display: flex;
+        align-items: center;
+    }
+
+    .header-input{
+        width: 300px;
+    }
+
+    .commo-btn{
+        width:120px ;
     }
 
     .destination-section p{
@@ -579,12 +597,18 @@ hr{
         margin-left: 35px;
 
     }
-
     .destination-section h1{
         margin-left: 0px;
         padding-left: 0px;
     }
 
+    .price-gurantee{
+        width: 530px;
+    }
+
+    body{
+        overflow-x: hidden;
+    }
     .main{
         display: flex;
         flex-direction: column;
