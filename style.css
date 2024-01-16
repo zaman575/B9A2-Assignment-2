@@ -20,7 +20,7 @@
 
   .nav-section{
     margin: 0 auto;
-    width: 1250px;
+    width: 80%;
     min-height: 100px;
     /* border: 2px solid tomato; */
     display: flex;
@@ -74,7 +74,7 @@
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-    width: 1250px;
+    width: 80%;
     min-height: 500px;
     /* border: 2px solid tomato; */
     background-image: url("Images/Group\ 13\ \(1\)\ \(1\).png");
@@ -151,7 +151,7 @@ transition: .5s;
     margin: 0 auto;
     display: flex;
     flex-direction: row;
-    width: 1250px;
+    width: 80%;
     margin-top:50px;
 }
 
@@ -179,6 +179,13 @@ transition: .5s;
 
 .tour-p-text{
     margin-bottom: 20px;
+    
+}
+
+.popular-tour-image{
+    width: fit-content;
+    align-content: center;
+    align-items: center;
     
 }
 
@@ -210,7 +217,7 @@ transition: .5s;
 .main{
     margin: 0 auto;
     margin-top:50px;
-    width: 1250px;
+    width: 80%;
     display: grid;
     column-gap: 10px;
     row-gap: 10px;
@@ -299,6 +306,7 @@ height: 90px;
     background-color: rgb(135, 173, 191);
     margin-top: 40px;
     width: 700px;
+    height: 280px;
     padding-left: 20px;
     border-radius: 10px;
 }
@@ -436,7 +444,7 @@ margin-left: 25%;
 
 .newsletter-image img{
     height: 99%;
-    margin-left: 150px;
+    /*margin-left: 150px;*/
 }
 .newsletter-textdiv{
     position: absolute;
@@ -517,11 +525,64 @@ hr{
     text-align: center;
 }
 
+ @media screen  and (max-width: 900px) {
+    
+}
+
+
 @media screen  and (max-width: 600px) {
-    .nav-section, .nav-manue, .header-section, .header-input{
+    .nav-section, .nav-manue, .header-input, .main-section, .service-sectio-1, .video-section{
         display: flex;
         flex-direction: column;
     }
+
+    .nav-content h1{
+        font-size: 25px;
+    }
+
+    .header-section, .header-content, .price-gurantee{
+        display: flex;
+        flex-direction: column; 
+    }
+
+    .header-section .header-content p{
+        width: 300px;
+    }
+
+    .header-input, .whychoose-section, {
+        width: 500px;
+        padding-right: opx;
+        margin-left: 20px;
+        margin-right: 10px;
+    }
+
+    .destination-section p{
+        width: 500px;
+        text-align: justify;
+        margin-left: 35px;
+
+    }
+
+    .destination-section h1{
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+
+    .main{
+        display: flex;
+        flex-direction: column;
+        row-gap: 1px;
+        column-gap: 1px;
+    }
+
+    .worldclass-services, .Worldclass-hotel{
+        width: 530px;
+        height: 280px;
+    }
+
+
+
+
 
 }
 
