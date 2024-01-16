@@ -248,13 +248,49 @@ transition: .5s;
     width: 1250px;
     padding: 20px;
     justify-content: center;
-    margin-top: 50px;
+    margin-top: 0px;
     min-height: 700px;
-    border: 2px solid tomato;
+    /* border: 2px solid tomato; */
 }
 
 .service-section img{
     width: 100px;
+    border-radius: 50%;
+}
+
+.Worldclass-hotel{
+    padding-left: 20px;
+    margin-right: 50px;
+    background-color: antiquewhite;
+    width: 700px;
+    height: 280px;
+    margin-top: 40px;
+    border-radius: 10px;
+    padding-bottom: 10px;
+}
+
+.Worldclass-hotel img{
+padding-top: 8px;
+height: 90px;
+}
+
+.Worldclass-hotel h1{
+    font-size: 38px;
+    padding-top: 5px;
+}
+
+.worldclass-services{
+    padding-top: 15px;
+    background-color: rgb(135, 173, 191);
+    margin-top: 40px;
+    width: 700px;
+    padding-left: 20px;
+    border-radius: 10px;
+}
+
+.worldclass-services h1{
+    font-size: 38px;
+    padding-top: 5px;
 }
 
 .service-sectio-1{
@@ -263,13 +299,66 @@ transition: .5s;
     justify-content: center;
 }
 
+.service-section > .price-gurantee{
+display: flex;
+flex-direction: column;
+justify-content: center;
+/* align-items: center; */
+align-content: center;
+margin-left: 25%;
+}
+
 .price-gurantee{
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-top: 100px;
+    padding-top: 15px;
+    background-color: antiquewhite;
+    margin-top: 30px;
+    width: 575px;
+    padding-left: 20px;
+    border-radius: 10px;
+    height: 280px;
     
 }
+
+.price-gurantee h1{
+    font-size: 38px;
+    margin-top: 5px;
+}
+
+
+/* video-section */
+
+.video-section{
+    margin: 0 auto;
+    width: 1250px;
+    display: flex;
+    margin-top: 40px;
+    flex-direction: row;
+    padding-left: 20px;
+}
+
+
+.Simple-Perfect h1{
+    font-size: 40px;
+    padding-right: 15px;
+    text-align: left;
+}
+
+.Simple-Perfect-text{
+    padding-top: 10px;
+    font-size: 20px;
+    padding-right: 15px;
+    text-align: justify;
+}
+
+.Simple-Perfect ul{
+    padding-top: 10px;
+    padding-right: 20px;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+
+
 
 
 
@@ -277,7 +366,9 @@ transition: .5s;
 /* footer  */
 .footer-section{
     margin: 0 auto;
+    margin-top: 40px;
     width: 100%;
+    margin-top: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
